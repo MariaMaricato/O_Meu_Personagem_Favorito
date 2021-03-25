@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-color: #000000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;    
+}
+
+header{
+    background-color: #f84639;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    box-shadow: 0 8px 10px 8px   rgb(70, 1, 1);
+}
+
+header h1 {
+   
+    font-size: 50;
+    color: whitesmoke;
+
+}
+
+h1, h2{
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+  
+}
+
+.Titulo{
+    font-family: 'Indie Flower', cursive;
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+   
+     
+}
+
+.caption{
+    margin: 80px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 18px;
+    border: tomato;
+
+}
+
+main{
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+main img{
+    width: 100%;
+   
+}
+
+h2{
+    color: #f84639;
+}
+
+p{
+    color: whitesmoke;
+    text-align: center;
+}
+
+li{
+    color: whitesmoke;
+   
+}
+
+ul{
+    margin-bottom: 50px;
+    margin-left: 340px;
+}
+ol{
+    margin-left: 340px;;
+}
+
+a{
+    color: #f84639;
+    text-decoration: none;
+    
+
+}
+
+a:hover{
+    color: rgb(243, 184, 184);
+    text-decoration:underline;
+   
+}
+
+footer{
+    background-color:#f84639;
+    text-align: center;
+    color: whitesmoke;
+    padding:50px;
+    box-shadow: 0 -8px 10px 8px rgb(70 1 1);
+}
