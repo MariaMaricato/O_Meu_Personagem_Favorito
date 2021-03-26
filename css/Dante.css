@@ -12,6 +12,7 @@ header{
     padding-top: 50px;
     padding-bottom: 20px;
     box-shadow: 0 8px 10px 8px   rgb(70, 1, 1);
+    margin: 0px;
 }
 
 header h1 {
@@ -35,12 +36,16 @@ header img{
     width: 300px;
     height: 300px;
     object-fit: cover;
-   
-     
+    border-radius: 40px;
+    
+    
+}
+header img:hover{
+        filter: grayscale(100%) blur(1px);
 }
 
 .caption{
-    margin: 80px;
+    margin-bottom: 80px;
     margin-top: 0px;
     text-align: center;
     font-size: 18px;
@@ -71,14 +76,21 @@ p{
 li{
     color: whitesmoke;
    
+   
 }
 
 ul{
+    list-style-type:circle;
+    border-image-outset: 1,4;
+    list-style-position: inside;
     margin-bottom: 50px;
-    margin-left: 340px;
+    text-align: center;
 }
 ol{
-    margin-left: 340px;;
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    text-align: center;
+    
 }
 
 a{
